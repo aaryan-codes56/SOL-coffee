@@ -494,7 +494,7 @@ header .navbar {
         color: var(--white-color);
     }
 
-    .navbar .nav-menu{
+    .navbar .nav-menu{ 
         display: block;
         position: fixed;
         left: -300px;
@@ -504,10 +504,12 @@ header .navbar {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 100%;
+        padding-top: 30%;
         background: var(--white-color); 
-        transition: left 0.2s ease;   
+        transition: left 0.2s ease;
+        justify-content: center;
     }
+    /* changed later(padding 100% & justify content) */
 
     body.show-mobile-menu .navbar .nav-menu{
         left: 0;
